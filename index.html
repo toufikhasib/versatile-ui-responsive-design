@@ -10,20 +10,66 @@
 			href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
 			rel="stylesheet" />
 		<!-- font awesome cnd link -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+			integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer" />
 		<!-- title -->
 		<title>Document</title>
 		<!-- css link add -->
 		<link rel="stylesheet" href="./css-file/style.css" />
+		<link rel="stylesheet" href="./css-file/responsive.css" />
 	</head>
 	<body class="inter-sens-sarif">
-		<header class="header">
-			<nav class="nav-menu">
-				<div class="nav-title"><h3>Fitness</h3></div>
-				<div class="nav-menu-btn">
-					<button class="nav-btn">Home</button>
-					<button class="nav-btn">Service</button>
+		<header class="header content-width">
+			<div class="nav-menu">
+				<div class="nav-title">
+					<h3>Fitness</h3>
 				</div>
-			</nav>
+				<div>
+					<nav>
+						<ul class="nav-btn">
+							<li><a href="" class="nav-btn-home">Home</a></li>
+							<li><a href="">Sevice</a></li>
+							<li><a href="">Contact</a></li>
+							<li><a href="">About</a></li>
+							<li>
+								<a href="" id="nav-hamber"><i class="fa-solid fa-bars"></i></a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
 		</header>
+		<main class="main-section content-width">
+			<section class="hero-section">
+				<div class="hero-section-content">
+					<h1 class="hero-section-title">Get body in shape & stay healthy</h1>
+					<p class="hero-section-description">
+						A huge selection of health and fitness content, healthy recipes and
+						transformation stories to help you get fit and stay fit!
+					</p>
+					<div class="hero-section-btn">
+						<button class="btn-join-now">Join Club Now!</button>
+						<button class="btn-download">Download App</button>
+					</div>
+				</div>
+				<div class="hero-section-img">
+					<img src="./images/Images 2.png" alt="get body image" />
+					<div class="workout-video">
+						<h2>500+</h2>
+						<p>Free Workout Video</p>
+					</div>
+
+					<div class="video-tutorial">
+						<div class="video-tutorial-ball"></div>
+						<h2>350+</h2>
+						<p>Video tutorial</p>
+					</div>
+				</div>
+			</section>
+		</main>
 	</body>
 </html>
