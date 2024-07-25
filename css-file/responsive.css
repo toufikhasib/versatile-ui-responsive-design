@@ -1,0 +1,23 @@
+@media screen and (max-width: 576px) and (max-width: 992px) {
+	.navbar-manu {
+		max-width: 100%;
+	}
+	.nav-btn {
+		display: block;
+		padding: 0px 20px;
+		padding-right: 0px;
+	}
+}
+
+/* mobile device */
+@media screen and (max-width: 576px) {
+	.navbar-manu {
+		max-width: 95%;
+	}
+	.nav-btn {
+		display: none;
+	}
+	.nav-hambar-manu {
+		display: block;
+	}
+}
