@@ -10,6 +10,7 @@
 	font-weight: 300;
 	font-style: normal;
 	font-variation-settings: "slnt" 0;
+	background-color: rgba(185, 185, 185, 1);
 }
 /* shard style */
 .content-width {
@@ -64,9 +65,11 @@ main > section {
 /* start banner section */
 .banner-section {
 	max-width: 70%;
-	margin: 0 auto;
-	margin: 96px auto;
+
+	margin: 32px auto;
 	display: flex;
+	justify-content: space-between;
+
 	background: linear-gradient(
 		360deg,
 		rgb(17, 17, 17, 1),
@@ -74,14 +77,10 @@ main > section {
 	);
 	border: 2px solid royalblue;
 }
-/* start hero section content */
-.banner-section {
-	display: flex;
-	justify-content: space-between;
-}
 .banner-section-contant {
 	flex-basis: 50%;
-	margin-top: 96px;
+	margin-top: 50px;
+	/* margin-top: 96px; */
 	/* padding-right: 50px; */
 	border: 2px solid yellow;
 }
@@ -89,6 +88,7 @@ main > section {
 	color: #ffffff;
 	font-size: 5rem;
 	font-weight: 600;
+	line-height: 95px;
 }
 #banner-title-headding {
 	font-family: "Miama", sans-serif;
@@ -116,7 +116,66 @@ main > section {
 	border: 1px solid rgba(255, 255, 255, 0.5);
 	margin-left: 20px;
 }
-/* banner section comtent ends */
+/*start banner-section-img */
+.banner-section-img {
+	max-width: 100%;
+	height: 100%;
+	position: relative;
+}
+.banner-section-img img {
+	width: 100%;
+	/* height: 100%; */
+}
+.workout-video {
+	max-width: 190px;
+
+	background-color: rgba(255, 255, 255, 0.1);
+	text-align: left;
+	padding: 14px 18px;
+	border-radius: 12px;
+	position: absolute;
+	border: 0.76px solid rgba(255, 255, 255, 0.1);
+	bottom: 390px;
+	right: -50px;
+}
+.workout-video h2 {
+	color: #ffffff;
+	font-size: 2.5rem;
+	font-weight: 800;
+}
+.workout-video p {
+	color: rgba(255, 255, 255, 0.65);
+	font-size: 1rem;
+	font-weight: 400;
+}
+.video-tutorial {
+	display: flex;
+	gap: 20px;
+	align-items: center;
+	background-color: rgba(255, 255, 255, 0.1);
+	border-radius: 12px;
+	max-width: 200px;
+	padding: 10px 20px;
+	position: absolute;
+	bottom: 70px;
+	left: -100px;
+	border: 0.76px solid rgba(255, 255, 255, 0.1);
+}
+.video-tutorial-ball {
+	width: 40px;
+	height: 40px;
+	background-color: #e6533c;
+	border-radius: 100%;
+}
+.video-tutorial-text h2 {
+	font-size: 1.5rem;
+	color: rgba(250, 250, 249, 1);
+}
+.video-tutorial-text p {
+	color: rgba(239, 237, 232, 0.65);
+	font-size: 1rem;
+}
+/* banner section contant ends */
 /* start main secton */
 .main-section {
 	background-color: #000000;
@@ -169,7 +228,17 @@ main > section {
 /* run section start */
 .run-section {
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
+	align-items: center;
+	background: rgba(34, 34, 34, 1);
+	border-radius: 18px;
+	margin-top: 100px;
+	border: 2px solid teal;
+}
+.run-section-contant {
+	flex-basis: 50%;
+	padding: 40px 54px;
+	border: 2px solid tomato;
 }
 .run-section-contant h2 {
 	color: #ffffff;
@@ -180,6 +249,7 @@ main > section {
 	color: rgba(255, 255, 255, 0.5);
 	font-size: 0.8rem;
 	font-weight: 400;
+	margin-top: 14px;
 }
 .run-section-contant button {
 	color: #ffffff;
@@ -187,11 +257,13 @@ main > section {
 	font-size: 1.12rem;
 	padding: 16px 71px;
 	border-radius: 42px;
+	border: none;
+	margin-top: 34px;
 }
 .run-section-img img {
 	max-width: 366px;
-	max-height: 312px;
-	flex-basis: 50%;
+	max-height: 312;
+	padding: 30px;
+	border-radius: 18%;
 }
-
-/*  */
+/*  run section ends */
