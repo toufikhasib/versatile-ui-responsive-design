@@ -267,3 +267,79 @@ main > section {
 	border-radius: 18%;
 }
 /*  run section ends */
+/* table-section  start */
+.table-section {
+	margin: 88px auto;
+	color: #ffffff;
+}
+.table-contant {
+	max-width: 50%;
+	margin: 0 auto;
+	border: 1px solid fuchsia;
+}
+.table-contant h2 {
+	color: rgba(255, 255, 255, 1);
+	font-size: 3rem;
+	font-weight: 800;
+}
+.table-contant p {
+	color: rgba(255, 255, 255, 0.5);
+	font-size: 0.8rems;
+	margin: 14px auto 88px;
+}
+.table-form {
+	display: flex;
+	/* align-items: center;
+	justify-content: center; */
+	background: rgba(34, 34, 34, 1);
+}
+.table-chart {
+	flex-basis: 50%;
+
+	border: 1px solid burlywood;
+}
+.table-chart h3 {
+	color: rgba(255, 255, 255, 1);
+	font-size: 1.75rem;
+	font-weight: 800;
+	margin: 52px auto;
+	text-align: center;
+}
+.table {
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+.table,
+th,
+td {
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	text-align: center;
+	padding: 14px 18px;
+}
+.table,
+th {
+	color: rgba(255, 255, 255, 1);
+	font-size: 1rem;
+}
+.table,
+td {
+	color: rgba(255, 255, 255, 0.6);
+	font-size: 0.88rem;
+}
+.form-chart {
+	flex-basis: 50%;
+	border: 1px solid palevioletred;
+	margin-right: 100px;
+}
+.form-chart h3 {
+	color: rgba(255, 255, 255, 1);
+	font-size: 1.75rem;
+	font-weight: 800;
+	margin: 52px auto 14px;
+	text-align: left;
+}
+.form-chart p {
+	color: rgba(255, 255, 255, 0.5);
+	font-size: 0.8rems;
+}
