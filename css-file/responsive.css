@@ -1,90 +1,27 @@
+/* medium dives */
 @media screen and (min-width: 576px) and (max-width: 992px) {
-	.navbar-manu,
-	.banner-section,
-	.habits-section,
-	.run-section {
+	.continer {
+		max-width: 100%;
+	}
+	.content {
 		max-width: 95%;
 	}
-	.nav-btn {
-		display: block;
-		padding: 0px 20px;
-		padding-right: 0px;
-	}
-	.banner-section,
-	.run-section {
-		flex-direction: column;
-	}
-	.banner-section-btn {
-		display: flex;
-		justify-content: space-around;
-	}
-
-	.habits-section-img {
-		grid-template-columns: repeat(2, 1fr);
-	}
-}
-
-/* mobile device */
-@media screen and (max-width: 576px) {
-	/* navbar-manu start */
-	.navbar-manu,
-	.banner-section,
-	.habits-section,
-	.run-section {
-		max-width: 95%;
-	}
-	.nav-btn {
-		display: none;
-	}
-	.nav-hambar-manu {
-		display: block;
-	}
-	/* navbar-manu ends */
-	/* baaner section start  */
-	.banner-section,
-	.run-section {
-		flex-direction: column;
-	}
-	.banner-section-btn {
-		display: flex;
-		justify-content: space-around;
-	}
-	.btn-join-now {
-		padding: 10px 23px;
-		margin-left: 0px;
-	}
-	.banner-section-img {
-		margin-top: 50px;
-	}
-	.workout-video {
-		max-width: 145px;
-		padding: 10px 16px;
-		bottom: 450px;
-		right: -1px;
-	}
-	.workout-video h2 {
-		font-size: 1.8rem;
-	}
-	.workout-video p {
-		font-size: 0.6rem;
-	}
-	.video-tutorial {
-		max-width: 145px;
-		padding: 7px 16px;
-		left: 10px;
-		bottom: 220px;
+	.navbar {
 		gap: 15px;
 	}
-
-	.video-tutorial-text h2 {
-		font-size: 1.8rem;
+}
+/* mobile dives */
+@media screen and (max-width: 576px) {
+	.continer {
+		max-width: 100%;
 	}
-	.video-tutorial-text p {
-		font-size: 0.6rem;
+	.content {
+		max-width: 95%;
 	}
-	/* baaner section ends  */
-	/* habits-section-img  */
-	.habits-section-img {
-		grid-template-columns: repeat(1, 1fr);
+	.navbar {
+		display: none;
+	}
+	.hambar-manu {
+		display: block;
 	}
 }
