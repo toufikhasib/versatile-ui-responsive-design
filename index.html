@@ -6,10 +6,11 @@
 		<!-- google font link miama -->
 		<link href="https://fonts.cdnfonts.com/css/miama" rel="stylesheet" />
 		<!-- font awesome cdn link -->
-
+		<!-- font cdn  -->
 		<link
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+		<!-- titel -->
 		<title>Versatile UI Responsive Design</title>
 		<!-- css linik -->
 		<link rel="stylesheet" href="./css-file/style.css" />
@@ -20,51 +21,53 @@
 			<!-- nav section start -->
 			<div class="nav-section content">
 				<div class="nav-content">
-					<div class="nav-title">
+					<div class="nav__title">
 						<h3>Fitness</h3>
 					</div>
 					<div class="nav-btn">
 						<nav class="navbar">
-							<button class="navbar-btn btn-home">Home</button>
-							<button class="navbar-btn">Service</button>
-							<button class="navbar-btn">Contact</button>
-							<button class="navbar-btn">About</button>
+							<button class="navbar__btn home--btn">Home</button>
+							<button class="navbar__btn">Service</button>
+							<button class="navbar__btn">Contact</button>
+							<button class="navbar__btn">About</button>
 						</nav>
 					</div>
-					<div class="hambar-manu">
+					<div class="hambar__manu">
 						<i class="fa-solid fa-bars"></i>
 					</div>
 				</div>
 				<div class="banner-section">
-					<div class="banner-content">
+					<div class="banner">
 						<h1>
-							Get body in <span class="banner-content-style">shape</span> & stay
-							healthy
+							Get body in <span class="banner__content__style">shape</span> &
+							stay healthy
 						</h1>
 						<p>
 							A huge selection of health and fitness content, healthy recipes
 							and transformation stories to help you get fit and stay fit!
 						</p>
 						<div class="banner-btn">
-							<button class="banner-btn-join primary-btn">
+							<button class="banner__btn__join primary--btn">
 								Join Club Now!
 							</button>
-							<button class="banner-btn-app primary-btn">Download App</button>
+							<button class="banner__btn__app primary--btn">
+								Download App
+							</button>
 						</div>
 					</div>
 					<div class="banner-img">
-						<div>
-							<img src="./images/Images 2.png" alt="Banner imae" />
-						</div>
+						<img src="./images/Images 2.png" alt="banner image" />
 						<div class="banner-video">
-							<h4 class="b-img-content-style">500+</h4>
-							<p class="b-img-content-p">Free Workout Videos</p>
+							<h4 class="b__img__content__style">500+</h4>
+							<p class="b__img__content__p">Free Workout Videos</p>
 						</div>
 						<div class="banner-tutorial">
-							<div class="ball"></div>
+							<div class="ball">
+								<i class="play--ball fa-duotone fa-solid fa-play"></i>
+							</div>
 							<div>
-								<h4 class="b-img-content-style">350</h4>
-								<p class="b-img-content-p">Video tutorial</p>
+								<h4 class="b__img__content__style">350</h4>
+								<p class="b__img__content__p">Video tutorial</p>
 							</div>
 						</div>
 					</div>
@@ -104,7 +107,9 @@
 					</div>
 				</div>
 			</section>
-			<!-- <section class="run-section">
+			<!-- habit section ends -->
+			<!-- run section start -->
+			<section class="run-section content">
 				<div class="run-content">
 					<div class="run-content-text">
 						<h4 class="section-title">Run an Extra Mile Easily</h4>
@@ -114,16 +119,17 @@
 							professional workouts.
 						</p>
 						<div class="run-btn-c">
-							<button class="run-btn primary-btn">Join Now</button>
+							<button class="run-btn primary--btn">Join Now</button>
 						</div>
 					</div>
 					<div class="run-content-img">
 						<img src="./images/run.jpg" alt="run exercise" />
 					</div>
 				</div>
-			</section> -->
-
-			<section class="table-section table-wrap">
+			</section>
+			<!-- run section ends -->
+			<!-- table section start -->
+			<section class="table-section">
 				<div class="table-contant">
 					<h4 class="section-title">BMI Calculator</h4>
 					<p class="section-deccription">
@@ -131,57 +137,59 @@
 						regardless of income or access to a gym.
 					</p>
 				</div>
-				<div class="table-form">
-					<div class="table-chart">
-						<h3>BMI Calculator Chart</h3>
-						<table>
-							<tr>
-								<th>BMI</th>
-								<th>Weight Status</th>
-							</tr>
-							<tr>
-								<td>Below 18.5</td>
-								<td>Underweight</td>
-							</tr>
-							<tr>
-								<td>18.5 - 24.9</td>
-								<td>Healthy</td>
-							</tr>
-							<tr>
-								<td>25.0 - 29.9</td>
-								<td>Overweight</td>
-							</tr>
-							<tr>
-								<td>30.0 - and Above</td>
-								<td>Obese</td>
-							</tr>
-						</table>
-					</div>
-					<div class="form-chart">
-						<div class="form-text">
-							<h3>Calculate your BMI</h3>
-							<p class="section-deccription">
-								We believe fitness should be accessible to everyone, everywhere,
-								regardless of income or access to a gym.
-							</p>
-							<form>
-								<div class="form-input">
-									<input type="text" placeholder="Height/cm" />
-									<input type="text" placeholder="Weight/kg" />
-								</div>
-								<div class="form-age">
-									<input type="text" placeholder="Age" />
-									<select class="form-sex">
-										<option>Sex</option>
-									</select>
-								</div>
-								<div>
-									<select class="form-activity">
-										<option>Select an activity factor</option>
-									</select>
-								</div>
-								<button class="form-btn primary-btn">Calculate</button>
-							</form>
+				<div class="table-wrap">
+					<div class="table-form">
+						<div class="table-chart">
+							<h3>BMI Calculator Chart</h3>
+							<table>
+								<tr>
+									<th>BMI</th>
+									<th>Weight Status</th>
+								</tr>
+								<tr>
+									<td>Below 18.5</td>
+									<td>Underweight</td>
+								</tr>
+								<tr>
+									<td>18.5 - 24.9</td>
+									<td>Healthy</td>
+								</tr>
+								<tr>
+									<td>25.0 - 29.9</td>
+									<td>Overweight</td>
+								</tr>
+								<tr>
+									<td>30.0 - and Above</td>
+									<td>Obese</td>
+								</tr>
+							</table>
+						</div>
+						<div class="form-chart">
+							<div class="form-text">
+								<h3>Calculate your BMI</h3>
+								<p class="section-deccription">
+									We believe fitness should be accessible to everyone,
+									everywhere, regardless of income or access to a gym.
+								</p>
+								<form>
+									<div class="form-input">
+										<input type="text" placeholder="Height/cm" />
+										<input type="text" placeholder="Weight/kg" />
+									</div>
+									<div class="form-age">
+										<input type="text" placeholder="Age" />
+										<select class="form-sex">
+											<option>Sex</option>
+										</select>
+									</div>
+									<div>
+										<select class="form-activity">
+											<option>Select an activity factor</option>
+										</select>
+									</div>
+									<button class="form-btn primary--btn">Calculate</button>
+								</form>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -229,8 +237,8 @@
 			</section>
 		</main>
 		<!-- footer section -->
-		<footer class="footer">
-			<div class="footer-section">
+		<footer class="footer table-wrap">
+			<div class="footer-section content">
 				<div class="footer-content-1">
 					<h2>Fitness</h2>
 					<p>
