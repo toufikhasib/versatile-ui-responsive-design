@@ -9,7 +9,10 @@
 		<!-- font cdn  -->
 		<link
 			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+			integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer" />
 		<!-- titel -->
 		<title>Versatile UI Responsive Design</title>
 		<!-- css linik -->
@@ -58,7 +61,7 @@
 					<div class="banner-img">
 						<img src="./images/Images 2.png" alt="banner image" />
 						<div class="banner-video">
-							<h4 class="b__img__content__style">500+</h4>
+							<p class="b__img__content__style">500+</p>
 							<p class="b__img__content__p">Free Workout Videos</p>
 						</div>
 						<div class="banner-tutorial">
@@ -66,7 +69,7 @@
 								<i class="play--ball fa-duotone fa-solid fa-play"></i>
 							</div>
 							<div>
-								<h4 class="b__img__content__style">350</h4>
+								<p class="b__img__content__style">350</p>
 								<p class="b__img__content__p">Video tutorial</p>
 							</div>
 						</div>
@@ -138,7 +141,7 @@
 					</p>
 				</div>
 				<div class="table-wrap">
-					<div class="table-form">
+					<div class="table">
 						<div class="table-chart">
 							<h3>BMI Calculator Chart</h3>
 							<table>
@@ -177,7 +180,8 @@
 										<input type="text" placeholder="Weight/kg" />
 									</div>
 									<div class="form-age">
-										<input type="text" placeholder="Age" />
+										<label for="age"></label>
+										<input type="text" id="age" placeholder="Age" />
 										<select class="form-sex">
 											<option>Sex</option>
 										</select>
@@ -239,32 +243,38 @@
 		<!-- footer section -->
 		<footer class="footer table-wrap">
 			<div class="footer-section content">
-				<div class="footer-content-1">
-					<h2>Fitness</h2>
-					<p>
+				<div class="footer__content__1">
+					<h2 class="nav__title">Fitness</h2>
+					<p class="section-deccription">
 						We believe fitness should be accessible to everyone, everywhere,
 						regardless of income or access to a gym. With hundreds of
 						professional workouts.
 					</p>
 				</div>
-				<div class="footer-content-2">
-					<h2>Get Started</h2>
-					<ul>
-						<li>Service</li>
-						<li>Contact Us</li>
-						<li>Affiliate Program</li>
-						<li>About Us</li>
-					</ul>
+				<div class="footer__content__2">
+					<div class="footer__title__1">
+						<h2>Get Started</h2>
+						<ul>
+							<li>Service</li>
+							<li>Contact Us</li>
+							<li>Affiliate Program</li>
+							<li>About Us</li>
+						</ul>
+					</div>
+					<div class="footer__title__2">
+						<h2>Get Started</h2>
+						<ul>
+							<li>Fitness</li>
+							<li>Platform</li>
+							<li>Workout Libary</li>
+							<li>App Design</li>
+						</ul>
+					</div>
 				</div>
-				<div class="footer-content-3">
-					<h2>Get Started</h2>
-					<ul>
-						<li>Fitness</li>
-						<li>Platform</li>
-						<li>Workout Libary</li>
-						<li>App Design</li>
-					</ul>
-				</div>
+			</div>
+			<div class="fotter-hr content">
+				<hr />
+				<p>All right reserved &#64; Fitness 2024</p>
 			</div>
 		</footer>
 	</body>

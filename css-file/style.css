@@ -21,7 +21,7 @@ body {
 .content {
 	max-width: 80%;
 	margin: 0 auto;
-	border: 1px solid green;
+	/* border: 1px solid green; */
 }
 /* main > section {
 	max-width: 80%;
@@ -155,8 +155,7 @@ body {
 	border: 1px solid purple;
 }
 .play--ball {
-	margin-top: 12px;
-	margin-left: 10px;
+	display: none;
 }
 /* .banner-img img {
 	max-width: 100%;
@@ -294,7 +293,7 @@ body {
 	margin: 88px auto;
 	border: 1px solid lawngreen;
 }
-.table-form {
+.table {
 	max-width: 80%;
 	margin: 0 auto;
 	display: flex;
@@ -397,9 +396,9 @@ select {
 	grid-template-columns: repeat(3, 1fr);
 	gap: 20px;
 	padding: 20px;
-
 	background: rgba(255, 255, 255, 0.1);
 	border-radius: 18px;
+	margin-bottom: 88px;
 }
 .our-team-img img {
 	width: 100%;
@@ -428,7 +427,47 @@ select {
 	left: 19px;
 	bottom: 17px;
 }
+/* our team section end */
+/* footer section start */
 .footer {
 	max-width: 90%;
 	margin: 0 auto;
+}
+.footer-section {
+	display: grid;
+	grid-template-columns: 45% 41%;
+	justify-content: space-between;
+	padding: 66px 0 80px;
+}
+.footer__content__1 h2 {
+	margin-bottom: 1.25rem;
+}
+.footer__content__2 {
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid forestgreen;
+}
+.footer__title__1 h2,
+.footer__title__2 h2 {
+	font-size: 2rem;
+	color: rgb(255, 255, 255);
+	font-weight: 700;
+	text-align: left;
+}
+.footer__title__1 ul li,
+.footer__title__2 ul li {
+	list-style: none;
+	font-size: 1.5rem;
+	color: rgba(255, 255, 255, 0.5);
+	font-weight: 400;
+}
+.footer-hr hr {
+	color: rgba(255, 255, 255, 0.1);
+}
+.fotter-hr p {
+	font-size: 1.6rem;
+	color: rgba(255, 255, 255, 0.5);
+	font-weight: 400;
+	text-align: center;
+	padding: 35px 0;
 }

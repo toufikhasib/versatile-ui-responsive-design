@@ -55,6 +55,7 @@
 	}
 	.hambar__manu {
 		display: block;
+		font-size: 1rem;
 	}
 	/* banner section start */
 	.banner-section {
@@ -77,12 +78,21 @@
 		left: 10%;
 		bottom: 42%;
 	}
+	.play--ball {
+		display: block;
+		margin-top: 12px;
+		margin-left: 5px;
+	}
 	.banner-btn {
 		padding: 0;
+		/* flex-basis: 80%; */
+		gap: 20px;
 	}
 	.primary--btn {
-		padding: 10px 25px;
+		/* padding: 25px 25px; */
+		padding: 16px 0;
 		margin-bottom: 48px;
+		width: 100%;
 	}
 	/* banner section end */
 
@@ -127,7 +137,7 @@
 		max-width: 100%;
 		margin: 30px auto;
 	}
-	.table-form {
+	.table {
 		max-width: 100%;
 		margin: 0 auto;
 		flex-direction: column;
@@ -148,5 +158,23 @@
 	}
 	.our-team-img {
 		grid-template-columns: repeat(1, 1fr);
+	}
+	/* footer section */
+	.footer {
+		max-width: 100%;
+	}
+	.footer-section {
+		grid-template-columns: 100%;
+	}
+	.footer__content__2 {
+		flex-direction: column;
+		margin-top: 30px;
+	}
+	.footer__title__2 {
+		margin-top: 20px;
+	}
+	.fotter-hr p {
+		font-size: 1.25rem;
+		text-align: left;
 	}
 }
