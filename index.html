@@ -20,7 +20,7 @@
 		<link rel="stylesheet" href="./css-file/responsive.css" />
 	</head>
 	<body>
-		<header class="continer">
+		<header class="header continer">
 			<!-- nav section start -->
 			<div class="nav-section content">
 				<div class="nav-content">
@@ -29,10 +29,10 @@
 					</div>
 					<div class="nav-btn">
 						<nav class="navbar">
-							<button class="navbar__btn home--btn">Home</button>
-							<button class="navbar__btn">Service</button>
-							<button class="navbar__btn">Contact</button>
-							<button class="navbar__btn">About</button>
+							<a href="" class="navbar__btn home--btn">Home</a>
+							<a href="" class="navbar__btn">Service</a>
+							<a href="" class="navbar__btn">Contact</a>
+							<a href="" class="navbar__btn">About</a>
 						</nav>
 					</div>
 					<div class="hambar__manu">
@@ -81,32 +81,45 @@
 		<main class="continer">
 			<section class="habit-section content">
 				<div class="habit-section-title">
-					<h3 class="section-title">Change Your Habits</h3>
+					<h3 class="habit__title section-title">Change Your Habits</h3>
 					<p class="section-deccription">
-						We believe fitness should be accessible to everyone, everywhere,
-						regardless of income or access to a gym.
+						We believe that income or health fitness through the gym is useful
+						for everyone, needs to be realized through the gym everywhere. And
+						need to exercise in the gym.
 					</p>
 				</div>
 				<div class="habit-section-img">
 					<div class="habit-img-content">
 						<img src="./images/image 3.png" alt="exercise movement" />
 						<h4>Movement</h4>
-						<p>We believe fitness should be accessible to everyone</p>
+						<p>
+							We believe that health and fitness should be accessible to
+							everyone
+						</p>
 					</div>
 					<div class="habit-img-content">
 						<img src="./images/image 2.png" alt="exercise time" />
 						<h4>Time</h4>
-						<p>We believe fitness should be accessible to everyone</p>
+						<p>
+							We believe that health and fitness should be accessible to
+							everyone
+						</p>
 					</div>
 					<div class="habit-img-content">
 						<img src="./images/image 4.png" alt="exercise practice time" />
 						<h4>Practice</h4>
-						<p>We believe fitness should be accessible to everyone</p>
+						<p>
+							We believe that health and fitness should be accessible to
+							everyone
+						</p>
 					</div>
 					<div class="habit-img-content">
 						<img src="./images/image 5.png" alt="exercise lose" />
 						<h4>Weight Loss</h4>
-						<p>We believe fitness should be accessible to everyone</p>
+						<p>
+							We believe that health and fitness should be accessible to
+							everyone
+						</p>
 					</div>
 				</div>
 			</section>
@@ -117,9 +130,9 @@
 					<div class="run-content-text">
 						<h4 class="section-title">Run an Extra Mile Easily</h4>
 						<p class="section-deccription">
-							We believe fitness should be accessible to everyone, everywhere,
-							regardless of income or access to a gym. With hundreds of
-							professional workouts.
+							We believe that health and fitness should be accessible to
+							everyone, whether it's income or gym. It is necessary to walk more
+							and every morning at a certain time.
 						</p>
 						<div class="run-btn-c">
 							<button class="run-btn primary--btn">Join Now</button>
@@ -131,13 +144,32 @@
 				</div>
 			</section>
 			<!-- run section ends -->
+			<section class="free-time-section content">
+				<div class="free__time__img">
+					<img src="./images/free-time.jpg" alt="work out free time" />
+				</div>
+				<div class="free__time__content">
+					<h2 class="time__title section-title">Work out at home for free.</h2>
+					<p class="time__description section-deccription">
+						We believe that health and fitness should be accessible to everyone,
+						everywhere, regardless of income or access to a gym.with hundreds of
+						professional workouts, healthy recipes and informative articles, as
+						well as one of the most positive communities on the web, you'll have
+						everything you need to reach your personal fitness goals-for free!
+					</p>
+					<div class="time-btn-c">
+						<button class="time-btn primary--btn">Learn Moro</button>
+					</div>
+				</div>
+			</section>
 			<!-- table section start -->
 			<section class="table-section">
 				<div class="table-contant">
 					<h4 class="section-title">BMI Calculator</h4>
 					<p class="section-deccription">
-						We believe fitness should be accessible to everyone, everywhere,
-						regardless of income or access to a gym.
+						We believe that through income or gym there is a change in health
+						and fitness. And daily it is necessary to calculate it within
+						ourselves so that we understand the difference within ourselves.
 					</p>
 				</div>
 				<div class="table-wrap">
@@ -171,23 +203,41 @@
 							<div class="form-text">
 								<h3>Calculate your BMI</h3>
 								<p class="section-deccription">
-									We believe fitness should be accessible to everyone,
-									everywhere, regardless of income or access to a gym.
+									We believe that health and fitness change through income or
+									the gym. And it should be realized everywhere.
 								</p>
 								<form>
 									<div class="form-input">
-										<input type="text" placeholder="Height/cm" />
-										<input type="text" placeholder="Weight/kg" />
+										<label for="height"></label>
+										<input
+											type="text"
+											id="height"
+											name="height"
+											placeholder="Height/cm" />
+										<label for="weight"></label>
+										<input
+											type="text"
+											id="weight"
+											name="weight"
+											placeholder="Weight/kg" />
 									</div>
 									<div class="form-age">
 										<label for="age"></label>
-										<input type="text" id="age" placeholder="Age" />
-										<select class="form-sex">
+										<input type="text" id="age" name="age" placeholder="Age" />
+										<select
+											class="form-sex"
+											id="gender"
+											name="gender"
+											aria-label="gender">
 											<option>Sex</option>
 										</select>
 									</div>
 									<div>
-										<select class="form-activity">
+										<select
+											class="form-activity"
+											id="activity"
+											name="activity"
+											aria-label="activity">
 											<option>Select an activity factor</option>
 										</select>
 									</div>
@@ -198,12 +248,13 @@
 					</div>
 				</div>
 			</section>
+			<!-- our team section start -->
 			<section class="our-team-section content">
 				<div class="our-team-text">
 					<h4 class="section-title">Meet Our Team</h4>
 					<p class="section-deccription">
-						We believe fitness should be accessible to everyone, everywhere,
-						regardless of income or access to a gym.
+						We believe that health fitness can be maintained through income or
+						gym. And it should be accessible everywhere.
 					</p>
 				</div>
 				<div class="our-team-img">
@@ -246,9 +297,10 @@
 				<div class="footer__content__1">
 					<h2 class="nav__title">Fitness</h2>
 					<p class="section-deccription">
-						We believe fitness should be accessible to everyone, everywhere,
-						regardless of income or access to a gym. With hundreds of
-						professional workouts.
+						We believe that health fitness can be maintained through income or
+						gym. Apart from this, walking for a certain time every morning and
+						following certain rules can maintain the health fitness. And it
+						should be accessible everywhere.
 					</p>
 				</div>
 				<div class="footer__content__2">
