@@ -55,14 +55,7 @@ body {
 	letter-spacing: 0.3px;
 }
 .nav__wrap {
-	max-width: 90%;
-	margin: 0 auto;
-
-	background: linear-gradient(
-		180deg,
-		rgba(119, 119, 119, 0),
-		rgb(17, 17, 17, 1) 100%
-	);
+	background-color: #000000;
 }
 /* default style end */
 /* nav-section start */
@@ -75,11 +68,11 @@ body {
 }
 /* nav section srart */
 .header {
-	/* background: linear-gradient(
+	background: linear-gradient(
 		360deg,
 		rgb(17, 17, 17, 1),
 		rgba(119, 119, 119, 0) 100%
-	); */
+	);
 }
 .nav-content {
 	display: flex;
@@ -281,7 +274,7 @@ body {
 
 	/* margin-top: 46px; */
 	/* margin: 0 54px; */
-	border: 1px solid rosybrown;
+	/* border: 1px solid rosybrown; */
 }
 .run-content-text p {
 	line-height: 24px;
@@ -391,12 +384,13 @@ body {
 .table-contant {
 	max-width: 50%;
 	margin: 88px auto;
-	border: 1px solid lawngreen;
+	border: 1px solid rgb(149, 151, 148);
 }
 .table {
 	max-width: 80%;
 	margin: 0 auto;
 	display: flex;
+	padding-bottom: 50px;
 	/* margin-bottom: 50px; */
 	justify-content: space-between;
 	background-color: rgb(34, 34, 34);
@@ -472,6 +466,9 @@ select {
 	border-radius: 8px;
 	/* margin-right: 12px; */
 	margin-bottom: 12px;
+}
+input::placeholder {
+	color: rgba(255, 255, 255, 0.4);
 }
 .form-sex {
 	color: rgba(255, 255, 255, 0.4);
@@ -561,8 +558,9 @@ select {
 	color: rgba(255, 255, 255, 0.5);
 	font-weight: 400;
 }
-.footer-hr hr {
-	color: rgba(255, 255, 255, 0.1);
+hr {
+	border: 2px solid rgba(255, 255, 255, 0.1);
+	border-radius: 10px;
 }
 .fotter-hr p {
 	font-size: 1.6rem;

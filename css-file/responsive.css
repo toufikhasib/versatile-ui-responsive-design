@@ -212,10 +212,9 @@
 	}
 	.our__blog {
 		grid-template-columns: repeat(1, 1fr);
-		gap: 0;
-		margin: 0;
-		padding: 0;
+		gap: 50px;
 	}
+
 	/* blog section end */
 	.table-section {
 		max-width: 95%;
@@ -243,7 +242,7 @@
 	/*  */
 	.our-team-text {
 		max-width: 90%;
-		margin: 0 auto;
+		margin: 70px auto;
 	}
 	.our-team-img {
 		grid-template-columns: repeat(1, 1fr);
@@ -265,5 +264,22 @@
 	.fotter-hr p {
 		font-size: 1.25rem;
 		text-align: left;
+	}
+}
+@media screen and (min-width: 374px) and (max-width: 425px) {
+	.banner-video {
+		width: 157px;
+		padding: 8px 12px;
+		left: 54%;
+		bottom: 75%;
+		text-align: left;
+	}
+
+	.b__img__content__style {
+		font-size: 2rem;
+		font-weight: 700;
+	}
+	.b__img__content__p {
+		font-size: 14px;
 	}
 }
