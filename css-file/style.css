@@ -263,6 +263,9 @@ body {
 }
 /* habit section end */
 /* run-section start */
+.run-section {
+	margin-bottom: 100px;
+}
 .run-content {
 	display: flex;
 	align-items: center;
@@ -300,59 +303,52 @@ body {
 	object-fit: none;
 	object-position: 66% 30%;
 }
-
-/* free-time-section start */
-.free-time-section {
-	display: flex;
-	color: #ffffff;
-	border: 1px solid tomato;
-	justify-content: space-between;
-	align-items: center;
-	margin-top: 80px;
-	padding: 50px;
+/* run section end */
+/* our__blog section start*/
+.blog__wrap {
+	/* background-color: rgb(242, 226, 225); */
 }
-.free__time__content {
-	flex-basis: 40%;
-	border: 1px solid tomato;
+.title__wrap {
+	/* background-color: #ffffff; */
 }
-.time__description {
-	line-height: 28px;
-	/* letter-spacing: 1.5px; */
-	margin-bottom: 40px;
-}
-.time-btn {
-	padding: 18px 80px;
-}
-.free__time__img img {
-	max-width: 100%;
-	max-width: 550px;
-	border-radius: 10px;
-}
-/* our__blog */
 .blog {
-	max-width: 80%;
+	/* max-width: 80%;
 	margin: 0 auto;
-	background-color: rgb(242, 226, 225);
+	border: 1px solid yellow; */
 }
 .blog__title {
 	max-width: 50%;
 	margin: 0 auto;
-	padding: 4rem 0;
+}
+.blog__title h2 {
+	padding-top: 4rem;
 	font-size: 5rem;
 	font-weight: 700;
-	color: rgb(235, 68, 56);
+	/* color: rgb(235, 68, 56); */
+	color: rgba(255, 255, 255, 1);
+	text-align: center;
+}
+.blog__title p {
+	padding-bottom: 4rem;
+	margin-top: 15px;
+	font-size: 1rem;
+	font-weight: 400;
+	/* color: rgb(46, 76, 95); */
+	color: rgba(255, 255, 255, 0.5);
 	text-align: center;
 }
 .our__blog {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	gap: 30px;
+	padding: 70px 0;
 }
 .our__blog img {
 	width: 100%;
 }
 .blog-content {
-	background-color: #ffffff;
+	/* background-color: #ffffff; */
+	box-shadow: 1px 2px 4px rgba(255, 255, 255, 0.418);
 	/* padding: 2rem; */
 }
 .content-text {
@@ -373,12 +369,14 @@ body {
 .content__title {
 	font-size: 2rem;
 	font-weight: 600;
-	color: rgb(46, 76, 95);
+	/* color: rgb(46, 76, 95); */
+	color: rgba(255, 255, 255, 1);
 	font-style: italic;
 	margin: 15px auto;
 }
 .content__description {
-	color: rgb(46, 76, 95);
+	/* color: rgb(46, 76, 95); */
+	color: rgba(255, 255, 255, 0.5);
 	font-size: 1rem;
 	font-weight: 400;
 }
@@ -388,7 +386,7 @@ body {
 .headding__title__2:hover {
 	background-color: rgb(46, 76, 95);
 }
-
+/* our__blog section end*/
 /* table section start*/
 .table-contant {
 	max-width: 50%;
