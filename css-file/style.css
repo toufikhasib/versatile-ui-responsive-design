@@ -363,7 +363,6 @@ body {
 	flex-direction: column;
 	align-items: stretch;
 	margin-top: 50px;
-	border: 1px solid lightskyblue;
 }
 .table-chart h3 {
 	font-size: 1.75rem;

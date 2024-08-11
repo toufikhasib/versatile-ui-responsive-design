@@ -268,17 +268,17 @@
 		text-align: left;
 	}
 }
-@media screen and (min-width: 374px) and (max-width: 425px) {
+@media screen and (min-width: 340px) and (max-width: 425px) {
 	.banner-video {
-		width: 157px;
-		padding: 8px 12px;
-		left: 54%;
+		width: 150px;
+		padding: 12px 8px;
+		left: 57%;
 		bottom: 75%;
 		text-align: left;
 	}
 
 	.b__img__content__style {
-		font-size: 2rem;
+		font-size: 1.5rem;
 		font-weight: 700;
 	}
 	.b__img__content__p {
