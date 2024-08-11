@@ -2,32 +2,24 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	/* border: 2px solid red; */
 }
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 body {
 	font-family: "Inter", sans-serif;
 	background-color: rgb(185, 185, 185);
 	box-sizing: border-box;
-	border: 2px solid yellow;
 }
 /* default style */
 .continer {
 	max-width: 90%;
 	margin: 0 auto;
 	background: #000000;
-	border: 2px solid tomato;
+	/* border: 2px solid tomato; */
 }
 .content {
 	max-width: 80%;
 	margin: 0 auto;
-	/* border: 1px solid green; */
 }
-/* main > section {
-	max-width: 80%;
-	margin: 0 auto;
-	border: 1px solid green;
-} */
 .table-wrap {
 	background-color: rgb(34, 34, 34);
 }
@@ -58,27 +50,19 @@ body {
 	background-color: #000000;
 }
 /* default style end */
-/* nav-section start */
-.nav-section {
-	/* background: linear-gradient(
-		180deg,
-		rgb(17, 17, 17, 1),
-		rgba(119, 119, 119, 0) 100%
-	); */
-}
 /* nav section srart */
 .header {
 	background: linear-gradient(
 		360deg,
-		rgb(17, 17, 17, 1),
-		rgba(119, 119, 119, 0) 100%
+		rgb(17, 17, 17, 1) 100%,
+		rgba(119, 119, 119, 0)
 	);
 }
 .nav-content {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin-top: 57px;
+	padding-top: 57px;
 }
 .nav__title {
 	color: rgb(230, 83, 60);
@@ -98,7 +82,6 @@ body {
 	color: #ffffff;
 	font-weight: 400;
 	text-decoration: none;
-	/* background-color: #000000; */
 }
 .home--btn {
 	background: #d64029;
@@ -107,8 +90,7 @@ body {
 	font-weight: 600;
 }
 .hambar__manu {
-	background-color: #ffffff;
-
+	color: #ffffff;
 	display: none;
 }
 /* nav section end */
@@ -119,13 +101,10 @@ body {
 	justify-content: space-around;
 	margin-top: 32px;
 	gap: 5%;
-	border: 1px solid tan;
 }
 .banner {
 	flex-basis: 45%;
 	margin-top: 70px;
-
-	border: 1px solid royalblue;
 }
 .banner h1 {
 	font-size: 5rem;
@@ -159,14 +138,10 @@ body {
 	flex-basis: 50%;
 	text-align: center;
 	position: relative;
-	border: 1px solid purple;
 }
 .play--ball {
 	display: none;
 }
-/* .banner-img img {
-	max-width: 100%;
-} */
 .banner-video {
 	width: 190px;
 	border: 1px solid rgba(255, 255, 255, 0.1);
@@ -180,7 +155,6 @@ body {
 	left: 60%;
 	bottom: 62%;
 }
-
 .b__img__content__style {
 	text-align: left;
 	color: #ffffff;
@@ -222,8 +196,7 @@ body {
 	max-width: 50%;
 	margin: 0 auto;
 	text-align: center;
-	margin-top: 100px;
-	border: 1px solid lawngreen;
+	padding-top: 100px;
 }
 .habit-section-img {
 	margin-top: 58px;
@@ -265,23 +238,15 @@ body {
 	justify-content: space-between;
 	border-radius: 18px;
 	background-color: rgb(34, 34, 34);
-	border: 1px solid violet;
 	padding: 2rem;
 }
 .run-content-text {
 	max-width: 465px;
-	/* height: 315px; */
-
-	/* margin-top: 46px; */
-	/* margin: 0 54px; */
-	/* border: 1px solid rosybrown; */
 }
 .run-content-text p {
 	line-height: 24px;
 	letter-spacing: 0.3px;
 	text-align: left;
-	/* margin-bottom: 40px; */
-	/* padding-bottom: 40px; */
 }
 .run-btn {
 	padding: 16px 71px;
@@ -298,17 +263,6 @@ body {
 }
 /* run section end */
 /* our__blog section start*/
-.blog__wrap {
-	/* background-color: rgb(242, 226, 225); */
-}
-.title__wrap {
-	/* background-color: #ffffff; */
-}
-.blog {
-	/* max-width: 80%;
-	margin: 0 auto;
-	border: 1px solid yellow; */
-}
 .blog__title {
 	max-width: 50%;
 	margin: 0 auto;
@@ -317,7 +271,6 @@ body {
 	padding-top: 4rem;
 	font-size: 5rem;
 	font-weight: 700;
-	/* color: rgb(235, 68, 56); */
 	color: rgba(255, 255, 255, 1);
 	text-align: center;
 }
@@ -326,7 +279,6 @@ body {
 	margin-top: 15px;
 	font-size: 1rem;
 	font-weight: 400;
-	/* color: rgb(46, 76, 95); */
 	color: rgba(255, 255, 255, 0.5);
 	text-align: center;
 }
@@ -340,15 +292,12 @@ body {
 	width: 100%;
 }
 .blog-content {
-	/* background-color: #ffffff; */
 	box-shadow: 1px 2px 4px rgba(255, 255, 255, 0.418);
-	/* padding: 2rem; */
 }
 .content-text {
 	padding: 2rem;
 	border-radius: 4px;
-}
-.content__headding {
+	background-color: rgba(34, 34, 34, 1);
 }
 .headding__title__1,
 .headding__title__2 {
@@ -384,7 +333,6 @@ body {
 .table-contant {
 	max-width: 50%;
 	margin: 88px auto;
-	border: 1px solid rgb(149, 151, 148);
 }
 .table {
 	max-width: 80%;
@@ -394,22 +342,18 @@ body {
 	/* margin-bottom: 50px; */
 	justify-content: space-between;
 	background-color: rgb(34, 34, 34);
-	border: 1px solid lightpink;
 }
 .table-chart {
 	display: flex;
 	flex-direction: column;
 	align-items: stretch;
 	margin-top: 50px;
-	/* justify-content: center; */
-
 	border: 1px solid lightskyblue;
 }
 .table-chart h3 {
 	font-size: 1.75rem;
 	font-weight: 800;
 	color: rgb(255, 255, 255);
-	/* margin: 52px auto; */
 }
 table {
 	border: 1px solid rgba(255, 255, 255, 0.1);
@@ -436,14 +380,11 @@ td {
 	flex-direction: column;
 	align-items: self-end;
 	margin-top: 50px;
-	/* margin-right: 190px; */
-	border: 1px solid blueviolet;
 }
 .form-text h3 {
 	font-size: 1.75rem;
 	color: rgb(255, 255, 255);
 	font-weight: 800;
-	/* margin-top: 49px; */
 }
 .form-text p {
 	margin-bottom: 34px;
@@ -464,7 +405,6 @@ select {
 	border: 1px solid rgba(255, 255, 255, 0.1);
 	width: 49%;
 	border-radius: 8px;
-	/* margin-right: 12px; */
 	margin-bottom: 12px;
 }
 input::placeholder {
@@ -483,10 +423,14 @@ input::placeholder {
 	margin-top: 34px;
 }
 /* ouer-team-section start */
+.our-team-section {
+	padding-top: 88px;
+	padding-bottom: 77px;
+}
 .our-team-text {
 	max-width: 50%;
-	margin: 88px auto 78px;
-	border: 1px solid rgba(230, 83, 60, 1);
+	margin: 0 auto;
+	padding-bottom: 88px;
 }
 .our-team-img {
 	display: grid;
@@ -495,14 +439,13 @@ input::placeholder {
 	padding: 20px;
 	background: rgba(255, 255, 255, 0.1);
 	border-radius: 18px;
-	margin-bottom: 88px;
+	/* padding-bottom: 88px; */
 }
 .our-team-img img {
 	width: 100%;
 	height: 100%;
 	border-radius: 18px;
 	filter: brightness(80%);
-	/* filter: rgba(0, 0, 0, 0.2); */
 }
 .team-img-content {
 	position: relative;
@@ -542,7 +485,6 @@ input::placeholder {
 .footer__content__2 {
 	display: flex;
 	justify-content: space-between;
-	border: 1px solid forestgreen;
 }
 .footer__title__1 h2,
 .footer__title__2 h2 {
@@ -559,7 +501,7 @@ input::placeholder {
 	font-weight: 400;
 }
 hr {
-	border: 2px solid rgba(255, 255, 255, 0.1);
+	border: 1.5px solid rgba(255, 255, 255, 0.1);
 	border-radius: 10px;
 }
 .fotter-hr p {

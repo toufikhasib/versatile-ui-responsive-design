@@ -58,7 +58,8 @@
 	/* run section end */
 	/* blog time section */
 	.blog {
-		max-width: 95%;
+		max-width: 97%;
+		margin: 0 auto;
 	}
 	.blog__title {
 		max-width: 90%;
@@ -133,6 +134,7 @@
 		font-size: 3rem;
 		letter-spacing: 1.8px;
 	}
+
 	.banner__content__style {
 		font-size: 3rem;
 	}
