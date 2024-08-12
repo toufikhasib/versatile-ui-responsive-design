@@ -237,7 +237,8 @@ body {
 /* habit section end */
 /* run-section start */
 .run-section {
-	margin: 100px auto;
+	margin: 0 auto;
+	margin-top: 100px;
 }
 .run-content {
 	display: flex;
@@ -272,6 +273,7 @@ body {
 .blog__title {
 	max-width: 50%;
 	margin: 0 auto;
+	margin-top: 70px;
 }
 .blog__title h2 {
 	/* padding-top: 4rem; */
