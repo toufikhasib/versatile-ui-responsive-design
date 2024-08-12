@@ -278,8 +278,8 @@
 		margin: 0 auto;
 	}
 	.banner-video {
-		width: 150px;
-		padding: 12px 8px;
+		width: 145px;
+		padding: 12px 7px;
 		left: 57%;
 		bottom: 75%;
 		text-align: left;
@@ -294,7 +294,7 @@
 		font-weight: 700;
 	}
 	.b__img__content__p {
-		font-size: 14px;
+		font-size: 13px;
 	}
 	.table-contant {
 		max-width: 95%;
