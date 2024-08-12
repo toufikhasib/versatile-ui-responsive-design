@@ -120,9 +120,11 @@
 @media screen and (max-width: 576px) {
 	.continer {
 		max-width: 100%;
+		margin: 0 auto;
 	}
 	.content {
 		max-width: 92%;
+		margin: 0 auto;
 	}
 	/* nabar */
 	.navbar {
@@ -221,6 +223,7 @@
 	/* table-form */
 	.table-contant {
 		max-width: 92%;
+		margin: 0 auto;
 	}
 	.table {
 		max-width: 92%;
@@ -270,6 +273,10 @@
 	}
 }
 @media screen and (min-width: 340px) and (max-width: 424px) {
+	.content {
+		max-width: 95%;
+		margin: 0 auto;
+	}
 	.banner-video {
 		width: 150px;
 		padding: 12px 8px;
@@ -288,5 +295,9 @@
 	}
 	.b__img__content__p {
 		font-size: 14px;
+	}
+	.table-contant {
+		max-width: 95%;
+		margin: 0 auto;
 	}
 }
