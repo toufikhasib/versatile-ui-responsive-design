@@ -30,6 +30,16 @@
 	.banner-img {
 		margin: 0 90px;
 		margin-top: 80px;
+		text-align: center;
+	}
+	.banner-video {
+		padding: 10px 15px;
+		left: 55%;
+		bottom: 75%;
+	}
+	.banner-tutorial {
+		left: 10%;
+		bottom: 20%;
 	}
 	.banner-btn {
 		gap: 30px;
@@ -146,6 +156,9 @@
 	.banner-section {
 		flex-direction: column;
 	}
+	.banner {
+		margin-top: 10px;
+	}
 	.banner h1 {
 		font-size: 3.1rem;
 		line-height: 50px;
@@ -154,16 +167,19 @@
 	.banner__content__style {
 		font-size: 3.1rem;
 	}
+	.banner-img {
+		text-align: center;
+	}
 	.banner-video {
 		padding: 10px 15px;
-		left: 54%;
+		left: 55%;
 		bottom: 75%;
 	}
 	.banner-tutorial {
 		left: 10%;
-		bottom: 42%;
+		bottom: 40%;
 	}
-	.play--ball {
+	.play__ball {
 		display: block;
 		margin-top: 12px;
 		margin-left: 5px;
@@ -181,12 +197,16 @@
 	/* habit section */
 	.habit-section-title {
 		max-width: 100%;
+		padding: 0;
+		padding-bottom: 20px;
+		/* margin-top: 100px; */
 	}
 	.habit-section-img {
 		grid-template-columns: repeat(1, 1fr);
+		gap: 0px;
 	}
 	.habit-img-content {
-		margin-top: 58px;
+		/* margin-top: 58px; */
 	}
 	.section-title {
 		font-size: 2rem;
@@ -256,9 +276,13 @@
 		padding: 16px 0;
 	}
 	/*  */
+	.our-team-section {
+		padding-top: 66px;
+	}
 	.our-team-text {
 		max-width: 70%;
 		margin: 0px auto;
+		padding-bottom: 37px;
 	}
 	.our-team-img {
 		grid-template-columns: repeat(1, 1fr);
