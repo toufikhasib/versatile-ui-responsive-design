@@ -21,8 +21,6 @@
 	}
 	.banner h1 {
 		font-size: 4rem;
-		/* line-height: 50px; */
-		/* text-align: left; */
 	}
 	.banner__content__style {
 		font-size: 4rem;
@@ -263,6 +261,7 @@
 	}
 	.table-chart {
 		padding-bottom: 40px;
+		max-width: 90%;
 	}
 	.table-chart h3 {
 		margin-bottom: 23px;
